@@ -43,10 +43,22 @@ a {
 /* шапка */
 .logo-web {
     color: var(--accent-color);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
 }
 
 .logo-studio {
     color: var(--primary-text-color);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
 }
 
 .site-nav a {
@@ -64,10 +76,14 @@ a {
     font-size: 14px;
     line-height: 1.14px;
     letter-spacin: 0.02em;
+    list-style: none;
 }
 
 .contact a {
     color: var(--secondare-text-color);
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.02em;
 }
 
 .site-studio :hover,
@@ -95,7 +111,7 @@ a {
 
 .hero-tittle {
     font-size: 44px;
-    line-height: 1.36px;
+    line-height: 1.36;
         
     text-align: center;
     letter-spacing: 0.06em;
@@ -118,7 +134,7 @@ a {
 
 .features-subject {
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -208,6 +224,12 @@ footer {
 
 .logo {
     color: var(--text-color);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
 }
 
 .address {
